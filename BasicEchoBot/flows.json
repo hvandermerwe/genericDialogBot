@@ -1,0 +1,20 @@
+{
+    "flowID": "UserDetails",
+    "questions": [
+        {
+            "type": "Text",
+            "value": "fname",
+            "text": "Enter your name"
+        },
+        {
+            "type": "Text",
+            "value": "lname",
+            "text": "Enter your surname"
+        },
+        {
+            "type": "Date",
+            "value": "dob",
+            "text": "Enter your date of birth"
+        }
+    ]
+  }
