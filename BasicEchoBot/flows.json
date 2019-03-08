@@ -1,20 +1,40 @@
-{
+[
+  {
     "flowID": "UserDetails",
     "questions": [
-        {
-            "type": "Text",
-            "value": "fname",
-            "text": "Enter your name"
-        },
-        {
-            "type": "Text",
-            "value": "lname",
-            "text": "Enter your surname"
-        },
-        {
-            "type": "Date",
-            "value": "dob",
-            "text": "Enter your date of birth"
+      {
+        "type": "Text",
+        "value": "fname",
+        "text": "Enter your name",
+        "branch": {
+          "text": "Rian",
+          "flowid": "GreetRian"
         }
+      },
+      {
+        "type": "Text",
+        "value": "lname",
+        "text": "Enter your surname"
+      },
+      {
+        "type": "Date",
+        "value": "dob",
+        "text": "Enter your date of birth"
+      }
+    ]
+  },
+  {
+    "flowID": "GreetRian",
+    "questions": [
+      {
+        "type": "text",
+        "value": "shoesize",
+        "text": "Hi %Fname, what is your shoe size",
+        "branch": {
+          "text": "Rian",
+          "flowid": "GreetRian"
+        }
+      }
     ]
   }
+]

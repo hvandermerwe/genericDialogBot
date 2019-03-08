@@ -10,5 +10,6 @@ namespace BasicEchoBot.Models
         public string Type { get; set; }
         public string Value { get; set; }
         public string Text { get; set; }
+        public Branch Branch { get; set; }
     }
 }
